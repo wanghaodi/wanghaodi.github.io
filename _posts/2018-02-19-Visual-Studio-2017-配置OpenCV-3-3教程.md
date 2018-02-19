@@ -1,5 +1,5 @@
 ---
-layout:     OpenCV
+layout:     post
 title:      Visual-Studio-2017-配置OpenCV-3-3教程
 subtitle:   配置教程
 date:       2018-02-19
