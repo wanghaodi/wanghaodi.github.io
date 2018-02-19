@@ -63,7 +63,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 3c02639fe7678995d63d   #生成的clientID
   clientSecret: 44ef0588f0bae254ed49cb034a4af2cf62a4017d  #同上
-  repo: wanghaodi.github.io    #仓库名称
+  repo: wanghaodi/wanghaodi.github.io/issues    #仓库名称
   owner: wanghaodi    #github用户名
   admin: wanghaodi
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
