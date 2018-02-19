@@ -61,8 +61,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 3c02639fe7678995d63d   #生成的clientID
-  clientSecret: 44ef0588f0bae254ed49cb034a4af2cf62a4017d  #同上
+  clientID: 5640028e5efc1832431d   #生成的clientID
+  clientSecret: d2bb1d89c1d6c9939db3ab83cac6184e14389c7d  #同上
   repo: wanghaodi.github.io    #仓库名称
   owner: wanghaodi    #github用户名
   admin: wanghaodi
