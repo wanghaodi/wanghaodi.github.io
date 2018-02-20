@@ -6,8 +6,6 @@
 > 
 ### [我的博客在这里 &rarr;](http://wanghaodi.github.io)
 
-![](https://raw.githubusercontent.com/wanghaodi/wanghaodi.github.io/master/img/readme-home.png)
-
 
 ## 使用
 
