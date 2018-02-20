@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: "HD, HD Blog, 颢迪的博客, 王颢迪, wanghaodi, Blog, HD的博客"
 url: "http://wanghaodi.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/wanghaodi/wanghaodi.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -56,7 +56,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: wanghaodi
 
 # Gitalk
 gitalk:
