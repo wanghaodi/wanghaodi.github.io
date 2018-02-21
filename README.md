@@ -80,7 +80,11 @@ tags:
 ### 侧边栏
 
 看右边:
+<<<<<<< HEAD
 ![](http://ww1.sinaimg.cn/large/6712cbb1ly1fon7sd1d3ej23ww24eqv6.jpg)
+=======
+![](http://ww1.sinaimg.cn/large/6712cbb1ly1fon7wtm2yyj23ww24eqv6.jpg)
+>>>>>>> d0ce34a5ad3209eea6085be5df1d5a418e1a1aea
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 
