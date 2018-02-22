@@ -1,6 +1,6 @@
-#HD Blog
+# HD Blog
 
-###[View Live Hux Blog &rarr;](http://whd.fun)
+### [View Live Hux Blog &rarr;](http://whd.fun)
 
 ## Porting 
 
