@@ -9,7 +9,7 @@
 
 ## Translation
 
- - [中文翻译 &rarr;](https://github.com/wanghaodi/wanghaodi.github.io/blob/master/README_zh.md)
+ - [中文翻译 &rarr;](https://github.com/wanghaodi/zh)
 
 ## Support
 
