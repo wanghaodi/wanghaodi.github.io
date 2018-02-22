@@ -1,21 +1,6 @@
-#Hux Blog
+#HD Blog
 
-###[View Live Hux Blog &rarr;](https://huangxuan.me)
-
-![](http://huangxuan.me/img/blog-desktop.jpg)
-
-
-
-## Boilerplate (beta)
-
-Want to clone a boilerplate instead of my buzz blog? Here comes this!  
-
-```
-$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
-```
-
-**[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
-
+###[View Live Hux Blog &rarr;](http://whd.fun)
 
 ## Porting 
 
@@ -24,61 +9,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 ## Translation
 
- - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: 感谢 [@BrucZhaoR](https://github.com/BruceZhaoR) 的 [中文翻译 &rarr;](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
-
-## Features
-
-##### New Feature (V1.5.2)
-
-- Annoyed to delete my blog post after clone or pull? **Boilerplate** comes to help you get started quickly and easily merge update.
-- `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default.
-- Fixed [issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15) about code wrap.
-
-##### New Feature (V1.5.1)
-
-- **[Comment](#comment)** support [**Disqus**](http://disqus.com) officially, thanks to @rpsh.
-
-##### New Feature (V1.5)
-
-- **[Comment](#comment)** and **[Analytics](#analytics)** is configurable now! We also add **Google Analytics support** and drop tencents. Both documents is updated.
-
-##### New Feature (V1.4)
-
-- **[Featured Tags](#featured-tags)** is now independent of [SideBar](#sidebar). Both documents is updated.
-- New **[SEO Title](#seo-title)** for SEO usage which is differ from the site title
-
-##### New Feature (V1.3.1)
-
-- Support **PingFang (苹方)**, the new Chinese font presented by [OS X El Capitan](http://www.apple.com/cn/osx/whats-new/)
-
-
-##### New Feature (V1.3)
-
-- Big Improvement to the **Navigation Menu** *(especially in Android)*:  Dropping the old, stuttering, low-performance [Bootstrap collapse.js](http://getbootstrap.com/javascript/#collapse),  replaced with an own wrote, [jank free](http://jankfree.org/) navbar menu in a pretty high-performance implementation of [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html).
-
-<img src="http://huangxuan.me/img/blog-md-navbar.gif" width="320" />
-
-
-##### New Feature (V1.2)
-
-- Brand new **[Keynote Layout](#keynote-layout)** is provided for easily posting beautiful HTML presentations you have created with this blog
-
-
-##### New Feature (V1.1)
-
-- We now support a clean and gorgeous **[SideBar](#sidebar)** for displaying more info
-- **[Friends](#friends)** is also added as a common feature of blog help you do SEO
-
-##### V1.0
-
-- Full-feature **Tag** support
-- **Mobile first** user experience optimization
-- **Typographic optimization** for Chinese Fonts
-- **Network optimizaition** for China, dropping Google webfont, using local CDN
-- Using [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
-- Using Baidu, Tencent/QQ analytics
-- Using [DuoShuo](http://duoshuo.com/) as the Disqus-like third party discussion system
-
+ - [中文翻译 &rarr;](https://github.com/wanghaodi/wanghaodi.github.io/blob/master/README_zh.md)
 
 ## Support
 
@@ -144,20 +75,20 @@ The **front-matter** of a post looks like that:
 ```
 ---
 layout:     post
-title:      "Hello 2015"
-subtitle:   "Hello World, Hello Blog"
-date:       2015-01-29 12:00:00
-author:     "Hux"
-header-img: "img/post-bg-2015.jpg"
+title:      "Python Applications Programming"
+subtitle:   "Python"
+date:       2018-02-22 12:00:00
+author:     "HD"
+header-img: "img/post-bg-sun.jpg"
 tags:
-    - Life
+    - Python
 ---
 
 ```
 
 #### SideBar
 
-![](http://huangxuan.me/img/blog-sidebar.jpg)
+![](http://ww1.sinaimg.cn/large/6712cbb1ly1fon7sd1d3ej23ww24eqv6.jpg)
 
 Seeing more information may be necessary for you to display, from V1.1, a clean, gorgeous **SideBar** is added for you, which provide more area for displaying possible modules. You can enable *(it is default enable)* this feature by simply config:
 
@@ -217,7 +148,7 @@ friends: [
 
 #### Keynote Layout
 
-![](http://huangxuan.me/img/blog-keynote.jpg)
+![](https://camo.githubusercontent.com/f30347a118171820b46befdf77e7b7c53a5641a9/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d6b65796e6f74652e6a7067)
 
 There is a increasing tendency to use Open Web technology to create keynotes, presentations, like Reveal.js, Impress.js, Slides, Prezi etc. I consider a modern blog should have abilities to post these HTML based presentation easily also abilities to play it directly.
 
@@ -226,7 +157,7 @@ Under the hood, a `iframe` is used to include webpage from outer source, so the 
 ```
 ---
 layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
+iframe:     "http://whd.fun/js-module-7day/"
 ---
 ```
 
@@ -263,7 +194,7 @@ ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: whd.fun
 ```
 
 Just checkout the code offered by Google/Baidu, and copy paste here, all the rest is already done for you.
@@ -294,7 +225,7 @@ In technical views, it can be done with CSS. However, the opacity of the black o
 #### SEO Title
 
 Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML.
-It's possible that you want the two things different. For me, my site-title is **“Hux Blog”** but I want the title shows in search engine is **“黄玄的博客 | Hux Blog”** which is multi-language.
+It's possible that you want the two things different. For me, my site-title is **“HD Blog”** but I want the title shows in search engine is **“HD的博客 | HD Blog”** which is multi-language.
 
 So, the SEO Title is introduced to solve this problem, you can set `SEOTitle` different from `title`, and it would be only used to generate HTML `<title>` and setting DuoShuo Sharing.
 
@@ -313,7 +244,7 @@ For other circumstances, check out existing issues or create a new one!
 ## License
 
 Apache License 2.0.
-Copyright (c) 2015-2016 Huxpro
+Copyright (c) 2017-2018 HD
 
 Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
 Copyright (c) 2013-2016 Blackrock Digital LLC.
