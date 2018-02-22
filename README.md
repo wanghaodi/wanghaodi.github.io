@@ -1,6 +1,6 @@
 # HD Blog
 
-### [View Live Hux Blog &rarr;](http://whd.fun)
+### [View Liv HD Blog &rarr;](http://whd.fun)
 
 ## Porting 
 
@@ -51,13 +51,13 @@ You can easily get started by modifying `_config.yml`:
 
 ```
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog			# check out docs for more detail
+title: HD Blog             # title of your website
+SEOTitle: HD Blog			# check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: wanghaodi     # modify this account to yours
+weibo_username: wanghaodi6      # the footer woule be auto-updated.
 
 # Build settings
 # paginate: 10              # nums of posts in one page
@@ -96,7 +96,7 @@ Seeing more information may be necessary for you to display, from V1.1, a clean,
 # Sidebar settings
 sidebar: true
 sidebar-about-description: "your description here"
-sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
+sidebar-avatar: /img/avatar_m.jpg     # use absolute URL.
 ```
 
 We default support *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* these three modules and you can add your own. The sidebar is naturally responsive and would be push to bottom in a small screen size (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
@@ -246,5 +246,5 @@ For other circumstances, check out existing issues or create a new one!
 Apache License 2.0.
 Copyright (c) 2017-2018 HD
 
-Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
+HD Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
 Copyright (c) 2013-2016 Blackrock Digital LLC.
