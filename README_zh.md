@@ -267,4 +267,3 @@ ga_domain: whd.fun			# 默认的是 auto, 这里我是自定义了的域名，�
 ## License
 
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/wanghaodi/wanghaodi.github.io/blob/master/LICENSE)。
-
