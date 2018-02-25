@@ -37,4 +37,4 @@ tags:
 按图配置好相关环境即可
 
 [1]: https://github.com/opencv/opencv/releases/tag/3.4.0
-[2]:https://whd.fun/2018/02/19/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E4%BB%A3%E7%A0%81-%E5%9F%BA%E4%BA%8EOpenCV/
+[2]:https://wanghaodi.top/2018/02/19/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E4%BB%A3%E7%A0%81-%E5%9F%BA%E4%BA%8EOpenCV/
