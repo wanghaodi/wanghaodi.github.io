@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Github-pages或个人域名实现https访问
+title:      Github
 subtitle:   SSL
 date:       2018-02-25
 author:     HD
