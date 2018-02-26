@@ -102,8 +102,7 @@ layout: default
                     repo: '{{site.gitalk.repo}}',
                     owner: '{{site.gitalk.owner}}',
                     admin: ['{{site.gitalk.admin}}'],
-                    id: decodeURI(location.pathname),
-                    <!--id: md5(location.href), -->
+                    id: md5(location.href),
                     });
                     gitalk.render('gitalk-container');
                 </script>
