@@ -1,6 +1,6 @@
 # Site settings
 title: HD Blog
-SEOTitle: 王颢迪的博客 | HD Blog
+SEOTitle: HD 的博客 | HD Blog
 header-img: img/post-bg-sea2.jpg
 email: whdi@foxmail.com
 description: "Every failure is leading towards success."
@@ -119,7 +119,7 @@ page-mathjax: false
 friends: [
     {
         title: "HD",
-        href: "https://wanghaodi.top"
+        href: "https://whdi.top"
     },{
         title: "简书·HD",
         href: "http://www.jianshu.com/u/afdfc22584c9"
