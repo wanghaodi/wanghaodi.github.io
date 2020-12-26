@@ -105,4 +105,4 @@ HTTPS（全称：Hyper Text Transfer Protocol over Secure Socket Layer），是�
   [14]: http://ww1.sinaimg.cn/large/6712cbb1ly1foslkuw6fkj21u20evgmh.jpg
   [15]: http://ww1.sinaimg.cn/large/6712cbb1ly1foslpmmbqbj221m0fljsy.jpg
   [16]: http://ww1.sinaimg.cn/large/6712cbb1ly1foslqgth2lj21uq0g0gmt.jpg
-  [17]: https://wanghaodi.top
+  [17]: https://whdi.top

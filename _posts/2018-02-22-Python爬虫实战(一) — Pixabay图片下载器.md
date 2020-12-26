@@ -119,4 +119,4 @@ Pixabay是不需要登录的，所以也没必要用到Cookie，而且Pixabay网
   [7]: https://github.com/wanghaodi/PixabayPic
   [8]: http://ww1.sinaimg.cn/large/6712cbb1ly1foogyluoqbj22390wbtda.jpg
   [9]: http://ww1.sinaimg.cn/large/6712cbb1ly1foogz4q6vfj215h0tqn1q.jpg
-  [10]: https://wanghaodi.top
+  [10]: https://whdi.top
