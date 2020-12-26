@@ -1,11 +1,11 @@
 # Site settings
 title: HD Blog
-SEOTitle: HD的博客 | HD Blog
+SEOTitle: 王颢迪的博客 | HD Blog
 header-img: img/post-bg-sea2.jpg
-email: 595741903@qq.com
+email: whdi@foxmail.com
 description: "Every failure is leading towards success."
 keyword: "HD, HD Blog, 颢迪的博客, 王颢迪, wanghaodi, Blog, HD的博客"
-url: "http://wanghaodi.github.io"          # your host, for absolute URL
+url: "http://whdi.top"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/wanghaodi/wanghaodi.github.io.git" # you code repository
 
@@ -14,10 +14,12 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/boy.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
+# Publish posts or collection documents with a future date.
+future: true
 
 
 # SNS settings
-RSS: False
+RSS: false
 weibo_username:     wanghaodi2011
 zhihu_username:     wanghaodi6
 github_username:    wanghaodi
@@ -29,10 +31,13 @@ jianshu_username:   afdfc22584c9
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
 
 
 
@@ -48,39 +53,53 @@ gems: [jekyll-paginate]
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: wanghaodi
+# disqus_username: whd
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 4825162e51ff792fff44   #生成的clientID
-  clientSecret: 28011074e1e28b7c7283228a6fef258220509773  #同上
-  repo: wanghaodi.github.io    #仓库名称
-  owner: wanghaodi    #github用户名
-  admin: wanghaodi
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# gitalk:
+#   enable: true    #是否开启Gitalk评论
+#   clientID: 4825162e51ff792fff44   #生成的clientID
+#   clientSecret: 28011074e1e28b7c7283228a6fef258220509773  #同上
+#   repo: wanghaodi.github.io    #仓库名称
+#   owner: wanghaodi    #github用户名
+#   admin: wanghaodi
+#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
+
+# Disqus settings
+disqus_username: whd
+
+# Netease settings
+netease_comment: false
 
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: ac9b00dc5cae8816e91176b88f2b1018
+ba_track_id: e222b83ebd5c8e1e3968f023ff6fbf18
 
 # Google Analytics
-#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-#ga_domain: wanghaodi.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'G-VN03GTEX63'            # Format: UA-xxxxxx-xx
+ga_domain: whdi.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
-
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Flee as a bird to your mountain!<br>你当像鸟飞往你的山"
+sidebar-avatar: /img/bby.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
@@ -93,7 +112,8 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
 
 # Friends
 friends: [
