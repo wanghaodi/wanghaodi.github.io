@@ -7,6 +7,7 @@
                 {% include sns-links.html center=true %}
 
                 <p class="copyright text-muted">
+                    本站总访问量:<span id="busuanzi_value_site_pv"></span>，本站访客数:<span id="busuanzi_value_site_uv"></span>，本文总阅读量:<span id="busuanzi_value_page_pv"></span>
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
                     Powered by <a href="https://whdi.top">HD Blog</a> |
@@ -19,6 +20,7 @@
         </div>
     </div>
 </footer>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
@@ -328,3 +330,8 @@
         });
     });
 </script>
+
+<!-- Back to the top -->
+<a id="rocket" href="#top" class=""></a>
+<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+<script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
