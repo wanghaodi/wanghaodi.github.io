@@ -17,8 +17,6 @@ tags:
 > 课程主页：[CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
 > 视频链接：[【斯坦福】CS224W：图机器学习( 中英字幕 | 2019秋)](https://www.bilibili.com/video/BV1Vg4y1z7Nf?p=1)
 
-[toc]
-
 ## 1 引言
 
 这篇是CS224W 图机器学习笔记的第一篇，本笔记主要梳理课程的关键点，以及一些图相关的基本概念。

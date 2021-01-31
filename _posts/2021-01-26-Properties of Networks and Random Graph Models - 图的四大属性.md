@@ -17,8 +17,6 @@ tags:
 > 课程主页：[CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
 > 视频链接：[【斯坦福】CS224W：图机器学习( 中英字幕 | 2019秋)
 
-[toc]
-
 ## 1 引言
 
 初步了解一个人，我们通常会问其身高、年龄、体重等信息。那么，要了解一个`图Graph`我们需要关注哪些信息呢？这就是本节讨论的内容。
