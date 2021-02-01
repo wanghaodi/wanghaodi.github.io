@@ -4,7 +4,7 @@ title:      CS224W-图神经网络 笔记1 ：Introduction ：Structure of Graph
 subtitle:   Graph Machine Learning 
 date:       2021-01-23
 author:     HD
-header-img: img/graph1.jpg
+header-img: img/graph21.jpg
 catalog: true
 tags:
     - Graph_Machine_Learning
