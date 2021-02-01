@@ -2,7 +2,7 @@
 layout:     post
 title:      CS224W-图神经网络 笔记3.1：Motifs and Structural Roles in Networks - 网络的结构（Motifs and Graphlet）
 subtitle:   Graph Machine Learning 
-date:       2021-02-08
+date:       2021-02-04
 author:     HD
 header-img: img/graph4.jpg
 catalog: true
