@@ -14,9 +14,7 @@ tags:
 # CS224W-图神经网络 笔记2.2：Properties of Networks and Random Graph Models -网络模型（Graph Model）
 
 > **本文总结之日CS224W Winter 2021只更新到了第四节，所以下文会参考2021年课程的PPT并结合2019年秋季课程进行总结以求内容完整**
->
 > 课程主页：[CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
->
 > 视频链接：[【斯坦福】CS224W：图机器学习( 中英字幕 | 2019秋)](https://www.bilibili.com/video/BV1Vg4y1z7Nf?p=2)
 
 ## 1 引言
